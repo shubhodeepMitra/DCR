@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_312619f6e54d9f008d2b42130cf871f154d98d6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9df4d6e390e35cb3550e41ad43faca937622d767">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a8c6cf12968adf7880708a47fc84266410efc0f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_96c148c5d0bd70f4e6d76457e8de607ebebf4c46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_6799f1c2ef33a6af625ca7976ca63ae9d8de8179/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_0896f54daff894e8bb429cf8e3bc77cd3d8cd8e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_e9dc8197147b8b60e7f86d8c173a0e72400d919c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b94e4f0940efa66f9de787bbcf221833725caec0">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_29e47b6bc02348fb61da857f84d7b3769ae11750/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_dc73a7c0d68754752796e133a50ded22d36a2354/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_39316711d01b2c4d892bf3f57da70214dc4b107f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/mitra00/AndroidStudioProjects/DCR/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_08d49c8b75909f6c7e805e3169d7603a32a273d1/classes.dex" />
+    </item>
+
+</items>

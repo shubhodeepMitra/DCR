@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#3c3f41"
+             tools:context="com.dcodereapers.www.dcr.sem5SubFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/demo"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+           >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/amp"
+                android:text="Advanced Microprocessor"
+                android:padding="10dp"
+                android:background="#E0E0E0"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cd"
+                android:text="Compiler Design"
+                android:padding="10dp"
+                android:background="#FAFAFA"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cg"
+                android:text="Computer Graphics and Visualization"
+                android:padding="10dp"
+                android:background="#E0E0E0"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dbms"
+                android:text="Database Management System"
+                android:padding="10dp"
+                android:background="#FAFAFA"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/duos"
+                android:text="Design of Unix Operating System"
+                android:padding="10dp"
+                android:background="#E0E0E0"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/os"
+                android:text="Operating System"
+                android:padding="10dp"
+                android:background="#FAFAFA"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ss"
+                android:text="System Software"
+                android:padding="10dp"
+                android:background="#E0E0E0"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_radio_black_24dp"
+            android:title="News"/>
+        <item
+            android:id="@+id/nav_elib"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="E-Library"/>
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Time Table"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_live_help_black_24dp"
+                android:title="About"/>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_thumbs_up_down_black_24dp"
+                android:title="Feedback"/>
+            <item
+                android:id="@+id/nav_report"
+                android:icon="@drawable/ic_bug_report_black_24dp"
+                android:title="Report A Bug"/>
+            <item
+                android:id="@+id/nav_dev"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="Developers"/>
+        </menu>
+    </item>
+
+</menu>

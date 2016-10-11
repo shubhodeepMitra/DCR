@@ -1,0 +1,276 @@
+<!-- Fragment Layout for the Time Table -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#3c3f41"
+             tools:context="com.dcodereapers.www.dcr.TimeTableFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- Image view for the timeline cover-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:src="@drawable/demo"/>
+
+
+        <!-- For choosing the section and semester-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!--For making two years in one horizontal view -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                <!--Linear Layout for the First Years -->
+                   <LinearLayout
+                       android:layout_width="150dp"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       android:layout_marginTop="20dp"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginRight="10dp"
+                       android:layout_weight="1"
+                       android:background="#e0e0e0">
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/y1TextView"
+                           android:text="First Year"
+                           android:textSize="20dp"
+                           android:background="#ffff00"
+                           android:gravity="center"/>
+
+                       <!--For choosing between the sections -->
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal">
+                           <!--Button for 1st year A sec-->
+                           <Button
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="SEC A"
+                               android:id="@+id/y1ATimeTable"
+                               android:onClick="y1aTime"
+                               android:layout_weight="1"
+                               android:background="#00bcd4"
+                               android:layout_margin="5dp"/>
+
+                           <!--Button for the 1st year b section -->
+                           <Button
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="SEC B"
+                               android:id="@+id/y1BTimeTable"
+                               android:onClick="y1bTime"
+                               android:layout_weight="1"
+                               android:background="#f50057"
+                               android:layout_margin="5dp"/>
+
+
+                       </LinearLayout>
+                    </LinearLayout>
+
+
+                       <!--Linear Layout for the Second Years -->
+                       <LinearLayout
+                           android:layout_width="150dp"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical"
+
+                           android:layout_marginTop="20dp"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="10dp"
+                           android:layout_weight="1"
+                           >
+
+                           <TextView
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:id="@+id/y2TextView"
+                               android:text="Second Year"
+                               android:textSize="20dp"
+                               android:background="#76ff03"
+                               android:gravity="center"
+                               />
+
+                           <!--For choosing between the sections -->
+                           <LinearLayout
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:orientation="horizontal"
+                               android:background="#9e9e9e">
+                               <!--Button for 2nd year A sec-->
+                               <Button
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:text="SEC A"
+                                   android:id="@+id/y2ATimeTable"
+                                   android:onClick="y2aTime"
+                                   android:layout_weight="1"
+                                   android:background="#00bcd4"
+                                   android:layout_margin="5dp"/>
+
+                               <!--Button for the 2nd year b section -->
+                               <Button
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:text="SEC B"
+                                   android:id="@+id/y2BTimeTable"
+                                   android:onClick="y2bTime"
+                                   android:layout_weight="1"
+                                   android:background="#f50057"
+                                   android:layout_margin="5dp"/>
+
+
+                           </LinearLayout>
+
+                       </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <!--For making two years in one horizontal view -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--Linear Layout for the Third Years -->
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/y3TextView"
+                            android:text="Third Year"
+                            android:textSize="20dp"
+                            android:background="#ff5722"
+                            android:gravity="center"/>
+
+                        <!--For choosing between the sections -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="#9e9e9e">
+                            <!--Button for 3rd year A sec-->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEC A"
+                                android:id="@+id/y3ATimeTable"
+                                android:onClick="y3aTime"
+                                android:layout_weight="1"
+                                android:background="#00bcd4"
+                                android:layout_margin="5dp"/>
+
+                            <!--Button for the 3rd year b section -->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEC B"
+                                android:id="@+id/y3BTimeTable"
+                                android:onClick="y3bTime"
+                                android:layout_weight="1"
+                                android:background="#f50057"
+                                android:layout_margin="5dp"/>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!--Linear Layout for the Fourth Years -->
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/y4TextView"
+                            android:text="Fourth Year"
+                            android:textSize="20dp"
+                            android:background="#ff1744"
+                            android:gravity="center"/>
+
+                        <!--For choosing between the sections -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="#9e9e9e">
+
+                            <!--Button for 4th year A sec-->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEC A"
+                                android:id="@+id/y4ATimeTable"
+                                android:onClick="y4aTime"
+                                android:layout_weight="1"
+                                android:background="#00bcd4"
+                                android:layout_margin="5dp"/>
+
+                            <!--Button for the 4th year b section -->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEC B"
+                                android:id="@+id/y4BTimeTable"
+                                android:onClick="y4bTime"
+                                android:layout_weight="1"
+                                android:background="#f50057"
+                                android:layout_margin="5dp"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

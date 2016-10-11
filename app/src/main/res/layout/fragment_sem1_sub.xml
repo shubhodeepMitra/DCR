@@ -1,0 +1,85 @@
+<!-- Fragment layout for the 1st sem subjects-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#3c3f41"
+             tools:context="com.dcodereapers.www.dcr.sem1SubFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/demo"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phy"
+                    android:text="Engineering Physics"
+                    android:padding="10dp"
+                    android:background="#E0E0E0"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/em"
+                    android:text="Engineering Mechanics"
+                    android:padding="10dp"
+                    android:background="#FAFAFA"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mes"
+                    android:text="Mechanical Engineering Sciences"
+                    android:padding="10dp"
+                    android:background="#E0E0E0"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bee"
+                    android:text="Basic Electrical Engineering"
+                    android:padding="10dp"
+                    android:background="#FAFAFA"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/math1"
+                    android:text="Engineering Mathematics I"
+                    android:padding="10dp"
+                    android:background="#E0E0E0"
+                    android:textSize="20dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ied"
+                    android:text="Operating System"
+                    android:padding="10dp"
+                    android:background="#FAFAFA"
+                    android:textSize="20dp"/>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</FrameLayout>

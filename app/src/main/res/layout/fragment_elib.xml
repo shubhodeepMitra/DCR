@@ -1,0 +1,278 @@
+<!-- Fragment layout for the E-Library-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#3c3f41"
+             tools:context="com.dcodereapers.www.dcr.ElibFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <!-- Image view for the timeline cover-->
+        <ImageView
+            android:id="@+id/elibImageView"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/demo"/>
+
+        <!-- For choosing the semester-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!--For making two years in one horizontal view -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--Linear Layout for the First Years -->
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="#e0e0e0">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/y1TextView"
+                            android:text="First Year"
+                            android:textSize="20dp"
+                            android:background="#ffff00"
+                            android:gravity="center"/>
+
+                        <!--For choosing between the sections -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <!--Button for 1st year 1st sem-->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 1"
+                                android:id="@+id/elibButtonSem1"
+                                android:onClick="s1Sub"
+                                android:layout_weight="1"
+                                android:background="#00bcd4"
+                                android:layout_margin="5dp"/>
+
+                            <!--Button for the 1st year 2nd Sem -->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 2"
+                                android:id="@+id/elibButtonSem2"
+                                android:onClick="s2Sub"
+                                android:layout_weight="1"
+                                android:background="#f50057"
+                                android:layout_margin="5dp"/>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!--Linear Layout for the Second Years -->
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/y2TextView"
+                            android:text="Second Year"
+                            android:textSize="20dp"
+                            android:background="#76ff03"
+                            android:gravity="center"
+                            />
+
+                        <!--For choosing between the sections -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="#9e9e9e">
+                            <!--Button for 2nd year 3rd sem-->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 3"
+                                android:id="@+id/elibButtonSem3"
+                                android:onClick="s3Sub"
+                                android:layout_weight="1"
+                                android:background="#00bcd4"
+                                android:layout_margin="5dp"/>
+
+                            <!--Button for the 2nd year 4th sem -->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 4"
+                                android:id="@+id/elibButtonSem4"
+                                android:onClick="s4Sub"
+                                android:layout_weight="1"
+                                android:background="#f50057"
+                                android:layout_margin="5dp"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+
+                <!--For making two years in one horizontal view -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!--Linear Layout for the Third Years -->
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/y3TextView"
+                            android:text="Third Year"
+                            android:textSize="20dp"
+                            android:background="#ff5722"
+                            android:gravity="center"/>
+
+                        <!--For choosing between the sections -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="#9e9e9e">
+                            <!--Button for 3rd year 5th sem-->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 5"
+                                android:id="@+id/elibButtonSem5"
+                                android:onClick="s5Sub"
+                                android:layout_weight="1"
+                                android:background="#00bcd4"
+                                android:layout_margin="5dp"/>
+
+                            <!--Button for the 3rd year 6th sem -->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 6"
+                                android:id="@+id/elibButtonSem6"
+                                android:onClick="s6Sub"
+                                android:layout_weight="1"
+                                android:background="#f50057"
+                                android:layout_margin="5dp"/>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <!--Linear Layout for the Fourth Years -->
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/y4TextView"
+                            android:text="Fourth Year"
+                            android:textSize="20dp"
+                            android:background="#ff1744"
+                            android:gravity="center"/>
+
+                        <!--For choosing between the sections -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:background="#9e9e9e">
+
+                            <!--Button for 4th year 7th sem-->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 7"
+                                android:id="@+id/elibButtonSem7"
+                                android:onClick="s7Sub"
+                                android:layout_weight="1"
+                                android:background="#00bcd4"
+                                android:layout_margin="5dp"/>
+
+                            <!--Button for the 4th year 8th sem -->
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="SEM 8"
+                                android:id="@+id/elibButtonSem8"
+                                android:onClick="s8Sub"
+                                android:layout_weight="1"
+                                android:background="#f50057"
+                                android:layout_margin="5dp"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>
